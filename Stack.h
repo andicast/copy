@@ -105,13 +105,6 @@ public:
   void clear (void);
 
 private:
-    // COMMENT There is no need to allocate the array on the heap. Always try to
-    // allocate on the stack to reduce the complexity of your code.
-
-   //RESPOND: I avoided added the array on the heap and edited my class methods
-   //to work with the updated design.  
-
-
   // add member variable here
   Array<T> array_;
   int size_;

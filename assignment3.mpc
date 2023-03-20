@@ -8,6 +8,8 @@ project (assignment3) {
  
  Source_Files {
   driver.cpp
+  Num_Command.cpp
+  Add_Command.cpp
  }
 
  Template_Files {
